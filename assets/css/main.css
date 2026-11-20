@@ -2237,31 +2237,132 @@ section,
 .contact .email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
-
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
 }
+
 /* KCC website customizations */
-.sitename{letter-spacing:.2px}
-.page-title{padding:55px 0 25px;background:#f6f7f6}
-.page-title h1{font-size:34px;font-weight:700;margin-bottom:10px}
-.page-title p{margin:0;color:#555}
-.course-item{border:1px solid #e7e7e7;border-radius:8px;overflow:hidden;background:#fff;box-shadow:0 4px 18px rgba(0,0,0,.05)}
-.course-item .course-content{padding:24px}
-.course-item h3{font-size:20px;font-weight:700;color:#37423b}
-.course-item p{margin-bottom:0}
-.course-item .category{background:#eef5ef;color:#5fcf80;padding:6px 12px;border-radius:20px;font-size:13px;font-weight:600}
-.member{height:100%;padding:30px 24px;border-radius:8px;background:#fff;border:1px solid #e8e8e8;box-shadow:0 4px 18px rgba(0,0,0,.05);text-align:center}
-.member h4{font-size:19px;font-weight:700;color:#37423b}
-.member span{display:block;color:#5fcf80;font-weight:600;margin:8px 0 12px}
-.member p{margin:0;color:#555}
-.pricing-item{height:100%;padding:32px 24px;text-align:center;border:1px solid #e6e6e6;border-radius:8px;background:#fff}
-.pricing-item h3{font-size:20px;font-weight:700}
-.pricing-item h4{font-size:25px;color:#5fcf80;margin:18px 0}
-.pricing-item h4 sup{font-size:16px}
-.pricing-item .buy-btn{display:inline-block;margin-top:18px;padding:10px 24px;border-radius:25px;background:#5fcf80;color:#fff}
-.hero img{object-position:center}
-@media(max-width:767px){.page-title h1{font-size:28px}}
+.sitename {
+  letter-spacing: .2px
+}
+
+.page-title {
+  padding: 55px 0 25px;
+  background: #f6f7f6
+}
+
+.page-title h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 10px
+}
+
+.page-title p {
+  margin: 0;
+  color: #555
+}
+
+.course-item {
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .05)
+}
+
+.course-item .course-content {
+  padding: 24px
+}
+
+.course-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #37423b
+}
+
+.course-item p {
+  margin-bottom: 0
+}
+
+.course-item .category {
+  background: #eef5ef;
+  color: #5fcf80;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600
+}
+
+.member {
+  height: 100%;
+  padding: 30px 24px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .05);
+  text-align: center
+}
+
+.member h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #37423b
+}
+
+.member span {
+  display: block;
+  color: #5fcf80;
+  font-weight: 600;
+  margin: 8px 0 12px
+}
+
+.member p {
+  margin: 0;
+  color: #555
+}
+
+.pricing-item {
+  height: 100%;
+  padding: 32px 24px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background: #fff
+}
+
+.pricing-item h3 {
+  font-size: 20px;
+  font-weight: 700
+}
+
+.pricing-item h4 {
+  font-size: 25px;
+  color: #5fcf80;
+  margin: 18px 0
+}
+
+.pricing-item h4 sup {
+  font-size: 16px
+}
+
+.pricing-item .buy-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 24px;
+  border-radius: 25px;
+  background: #5fcf80;
+  color: #fff
+}
+
+.hero img {
+  object-position: center
+}
+
+@media(max-width:767px) {
+  .page-title h1 {
+    font-size: 28px
+  }
+}
